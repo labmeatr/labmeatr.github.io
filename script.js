@@ -28,4 +28,15 @@ window.addEventListener('load', (event) => {
             div_skills.style.display = "none";
         }
     }
+
+
+    let surname_span = document.getElementById("surname_span");
+    let surname_button = document.getElementById("surname_reveal_button");
+
+    surname_button.onclick = function () {
+        surname_button.style.marginLeft = "200px";
+        surname_button.style.opacity = 0;
+        surname_button.style.visibility = "hidden";
+        surname_span.style.opacity = "1";
+    }
 });
