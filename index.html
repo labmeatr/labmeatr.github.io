@@ -3,21 +3,57 @@
     <head>
 
         <link href="styles.css" rel="stylesheet">
+        <script src="./script.js"></script>
 
     </head>
     <body>
         
         <div class="main-content">
             <div class="bio-box">
-                <h2>Web Designer</h2>
-                <h2>Software Developer</h2>
-                <h2>Student</h2>
+                <h2>Web Designer.</h2>
+                <h2>Software Developer.</h2>
+                <h2>Student.</h2>
             </div>
             <div class="description-box">
                 <h2>Who Am I?</h2>
                 <p>Me? I'm Lexi. I'm a student at sheffield high with an interest in software, webdev, and game design.</p>
-                <div class="dropdown-container"><button class="dropdown-button">My Work</button></div>
-                <div class="dropdown-container"><button class="dropdown-button">My Experience</button></div>
+                <button class="select-button" id="button_work">My Work</button>
+                <button class="select-button" id="button_experience">My Experience</button>
+                <button class="select-button" id="button_skills">My Skills</button>
+            </div>
+            <div class="select-content" id="content_work" style="display: none;">
+                <h2>My Work</h2>
+                <p>I've completed several projects and a multitude of websites.</p>
+                <span class="project-type">[website]</span><a href="https://haystechnologies.com.au" target="_blank">Hays Technologies ⇒</a>
+                <span class="project-type">[website]</span><a href="https://tasmanianrailwayhistory.com.au" target="_blank">Tasmanian Railway History ⇒</a>
+            </div>
+            <div class="select-content" id="content_experience" style="display: none;">
+                <h2>My Experience</h2>
+                <p><b>Hays Technologies</b> | Work Placement | 2022<br>Created and maintained websites to suit client needs.</p>
+                <p><b>Gum Leaf Cafe</b> | Part Time / Casual Employee | 2022 - ongoing<br>Served customers in a well-manered way to provide a comfortable and positive experience.</p>
+                <p><b>That Little Orange Coffee Van</b> | Casual Employee | 2021 - 2022<br>Maintained a clean and orderly workspace in a small area between several employees.</p>
+            </div>
+            <div class="select-content" id="content_skills" style="display: none;">
+                <h2>My Skills</h2>
+                <p>I'm skilled with several programming languages and tools.</p>
+                <ul><b>Languages</b>
+                    <li>Python</li>
+                    <li>C#</li>
+                    <li>Java</li>
+                    <li>Javascript</li>
+                    <li>Lua</li>
+                    <li>HTML5</li>
+                </ul>
+                <ul><b>Tools</b>
+                    <li>LOVE2D</li>
+                    <li>Github</li>
+                    <li>VS Code</li>
+                    <li>Adobe Photoshop CS6</li>
+                    <li>NodeJS</li>
+                    <li>Blender</li>
+                    <li>Gradle</li>
+                    <li>.NET Framework</li>
+                </ul>
             </div>
         </div>
 
