@@ -19,119 +19,67 @@ body {
     background-color: #000;
     border: 2px solid #F0F;
     border-radius: 12px;
-    margin: 250px auto 40px auto;
+    margin: 40px auto 40px auto;
     font-family: Verdana, Tahoma, sans-serif;
     text-align: center;
     box-shadow: 4px 4px 7px #000;
+    padding: 0 0 10px 0;
 }
 
 .main-content > h1 {
     color: #FFF;
-    display: block;
-    padding: 12px;
-    border-bottom: 3px dotted #222;
+    margin: 20px 0 15px 0;
+    border-bottom: 1px dashed #F0F;
+    padding: 0 0 20px 0;
 }
-.main-content > h1 > span {
-    transition: opacity 2s ease-out;
-}
-.main-content > h1 > button {
-    font-size: 1em;
-    padding: 0px 12px 0px 12px;
-    margin-left: 1px;
-    border-radius: 0;
-    color: #FFF;
-    background-color: #000;
-    transition: background-color 0.3s linear, border 0.3s linear, opacity 1.2s linear, margin 2s linear, visibility 2s cubic-bezier(0, 0, 0, 1);
-    border: 1px solid #F0F;
-    position: fixed;
-    z-index: 99;
-}
-.main-content > h1 > button:hover {
-    background-color: #404;
-    border: 1px solid #909;
+.main-content > h2 {
+    color: #AAA;
+    margin: 5px 0 10px 0;
+    font-size: 20px;
 }
 
-.bio-box {
-    display: inline-block;
-    background: linear-gradient(270deg, #000 30%, #F0F 90%);
-    vertical-align: middle;
-    margin: 20px 12px 20px 20px;
-    border-radius: 6px;
-    padding: 14px;
-}
-.bio-box > h2 {
-    color: transparent;
-    border-radius: 4px;
-    background-color: #F0F;
-    padding: 1px 5px 1px 5px;
-    transition: background-color 0.3s linear;
-}
-.bio-box > h2:hover {
-    color: #FFF;
-    background-color: #000;
-}
-.description-box {
-    display: inline-block;
-    color: #FFF;
-    vertical-align: middle;
+
+.multi-container {
+    width: max-content;
+    border: 1px dashed #F0F;
+    border-radius: 12px;
+    padding: 10px 10px 10px 10px;
+    margin: 10px auto 20px auto;
+    line-height: 1em;
 }
 
-.select-button {
-    border: 2px solid #F0F;
-    background-color: #000;
+.multi-element {
     display: inline-block;
-    margin: 8px 4px 8px 4px;
-    border-radius: 2px;
-    color: #FFF;
-    transition: background-color 0.1s linear, color 0.1s linear, border-radius 0.1s linear;
-    padding: 6px;
-}
-.select-button:hover {
     background-color: #F0F;
+    padding: 3px;
+    border: 3px solid #000;
+    border-radius: 7px;
     color: #000;
-    border-radius: 0px;
 }
 
-.select-content {
-    margin: 12px 0 40px 0;
+.multi-element > h3 {
+    font-size: 12px;
+    width: 100%;
+}
+
+.multi-element:hover {
+    background-color: #000;
+    border: 3px solid #F0F;
+    border-radius: 7px;
     color: #FFF;
-    padding-top: 20px;
-    display: block;
-    border-top: 3px dotted #222; 
-}
-.select-content > a {
-    text-decoration: none;
-    text-align: left;
-    color: #F0F;
-    display: inline-block;
-    width: 49%;
-}
-.project-type {
-    display: inline-block;
-    width: 47%;
-    text-align: right;
-    margin-right: 4px;
-}
-.select-content > a:hover {
-    color: #222;
-}
-.select-content > a > span {
-    text-align: left;
-}
-.select-content > p {
-    line-height: 1.3em;
-    margin-bottom: 12px;
-}
-h2 {
-    margin-bottom: 5px;
 }
 
-.select-content > ul {
+.flag-element { 
     display: inline-block;
-    width: 49%;
-    margin-bottom: 20px;
-    vertical-align: top;
+    width: 80px;
+    height: 50px;
+    margin: 0;
+    border: 2px solid #000;
+    border-radius: 5px;
 }
-.select-content > ul > li {
-    display: block;
+
+
+.main-content > a {
+    color: #F0F;
+    text-decoration: underline;
 }
